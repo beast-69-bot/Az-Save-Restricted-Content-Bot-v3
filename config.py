@@ -17,10 +17,10 @@ YTUB_COOKIES = """
 # write here yt cookies
 """
 
-API_ID = os.getenv("API_ID", "")
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-MONGO_DB = os.getenv("MONGO_DB", "")
+API_ID = os.getenv("API_ID", "23545760")
+API_HASH = os.getenv("API_HASH", "447f9b10a3fe7cbb0dd4d5012f38cefd")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8186714607:AAGx0Y-zFpQ9UlmfFfzvw0xsCahK-AORJ30")
+MONGO_DB = os.getenv("MONGO_DB", "mongodb+srv://Restrictionbot:anshu1111@restrictionbot.rgor2ve.mongodb.net/?retryWrites=true&w=majority&appName=Restrictionbot")
 OWNER_ID = list(map(int, os.getenv("OWNER_ID", "8104079982").split())) # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "telegram_downloader")
 STRING = os.getenv("STRING", None) # optional
@@ -34,4 +34,5 @@ FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "0"))
 PREMIUM_LIMIT = int(os.getenv("PREMIUM_LIMIT", "500"))
 JOIN_LINK = os.getenv("JOIN_LINK", "https://t.me/az_swadeshi_adda1") # this link for start command message
 ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/Azdn35")
+
 
